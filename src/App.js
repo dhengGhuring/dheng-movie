@@ -1,8 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+import NavigationBar from './components/NavigationBar';
+import './style/LandingPage.css';
 function App() {
-  return <div>Hello World</div>;
+  return (
+    <div>
+      <div className="myBG">
+        <NavigationBar />
+      </div>
+    </div>
+  );
 }
 
 export default App;
