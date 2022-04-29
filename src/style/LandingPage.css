@@ -3,3 +3,17 @@
   background-image: url(../assets/images/bg/cinema.jpg);
   background-size: cover;
 }
+.intro {
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.title {
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 900;
+  text-shadow: 3px 3px black;
+  line-height: 1.2;
+  letter-spacing: 5px;
+}
