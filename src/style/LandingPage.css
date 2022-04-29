@@ -2,6 +2,7 @@
   height: 100vh;
   background-image: url(../assets/images/bg/cinema.jpg);
   background-size: cover;
+  background-position: center;
 }
 .intro {
   height: 400px;
@@ -11,9 +12,15 @@
 }
 .title {
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3.3em;
   font-weight: 900;
   text-shadow: 3px 3px black;
   line-height: 1.2;
   letter-spacing: 5px;
+}
+.trending {
+  height: auto;
+  background-image: url(../assets/images/bg/war.jpg);
+  background-size: cover;
+  background-position: cover;
 }
