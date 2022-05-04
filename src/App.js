@@ -12,6 +12,7 @@ function App() {
         <Intro />
       </div>
       {/* End Intro Section */}
+
       {/* Movie List Section */}
       <div className="trending">
         <Trending />

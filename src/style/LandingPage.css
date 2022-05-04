@@ -24,3 +24,13 @@
   background-size: cover;
   background-position: cover;
 }
+.judul h1 {
+  font-size: 3.3em;
+  font-weight: 900;
+}
+.movieImage {
+  background-color: aliceblue;
+  padding: 5px;
+}
+.movieWrapper {
+}
