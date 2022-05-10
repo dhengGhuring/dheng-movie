@@ -3,6 +3,7 @@ import NavigationBar from './components/NavigationBar';
 import Intro from './components/Intro';
 import Trending from './components/Trending';
 import './style/LandingPage.css';
+import Superhero from './components/Superhero';
 function App() {
   return (
     <div>
@@ -18,6 +19,12 @@ function App() {
         <Trending />
       </div>
       {/* End Movie List Section */}
+
+      {/* Superhero List */}
+      <div className="superhero">
+        <Superhero />
+      </div>
+      {/* End Superhero List */}
     </div>
   );
 }

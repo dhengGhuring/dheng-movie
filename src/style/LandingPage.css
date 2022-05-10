@@ -24,6 +24,12 @@
   background-size: cover;
   background-position: cover;
 }
+.superhero {
+  height: auto;
+  background-image: url(../assets/images/bg/groot.jpg);
+  background-size: cover;
+  background-position: cover;
+}
 .judul h1 {
   font-size: 3.3em;
   font-weight: 900;

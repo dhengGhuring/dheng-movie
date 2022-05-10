@@ -10,7 +10,9 @@ const Trending = () => {
     <div>
       <Container>
         <div className="judul d-flex justify-content-center">
-          <h1 className="text-danger mt-3">TRENDING MOVIES</h1>
+          <h1 className="text-danger mt-3" id="trending">
+            TRENDING MOVIES
+          </h1>
         </div>
         <Row className="justify-content-center">
           <Col md={4} className="movieWrapper mt-3 mb-3">
